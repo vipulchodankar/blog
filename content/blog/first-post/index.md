@@ -12,4 +12,4 @@ Well, this is the first post. Not much eh?
 
 I wonder how much i'll actually post, definitely won't be weekly. Maybe monthly, let's see how it goes.
 
-Later~
+Later ~

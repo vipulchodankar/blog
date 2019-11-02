@@ -3,9 +3,10 @@ module.exports = {
     title: `A Tech Blog`,
     author: `Vipul Chodankar`,
     description: `A blog to share my journey with technology i guess.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    siteUrl: `https://vipulchodankar-blog.netlify.com/`,
     social: {
       twitter: `vipul_chodankar`,
+      linkedin: `vipulchodankar`
     },
   },
   plugins: [
@@ -50,19 +51,19 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-146098067-1`,
       },
     },
     `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `A Tech Blog`,
+        short_name: `A Tech Blog`,
         start_url: `/`,
-        background_color: `#424242`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
+        background_color: `#212121`,
+        theme_color: `#424242`,
+        display: `standalone`,
         icon: `content/assets/dev-icon.png`,
       },
     },

@@ -26,6 +26,7 @@ const Bio = () => {
           author
           social {
             twitter
+            linkedin
           }
         }
       }
@@ -55,11 +56,18 @@ const Bio = () => {
       />
       <p>
         Written by <strong>{author}</strong> who is an aspiring full stack
-        developer living in Goa.
+        developer.
+        <p> 
+        You should follow him on:
         {` `}
         <a href={`https://twitter.com/${social.twitter}`}>
-          You should follow him on Twitter
+          Twitter
         </a>
+        {` `}
+        <a href={`https://www.linkedin.com/in/${social.linkedin}`}>
+          LinkedIn
+        </a>
+        </p>
       </p>
     </div>
   )
