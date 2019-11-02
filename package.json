@@ -1,11 +1,11 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "vipulchodankar-blog",
   "private": true,
   "description": "A blog to share my journey with technology i guess.",
   "version": "0.1.0",
   "author": "Vipul Chodankar",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/vipulchodankar/blog/issues"
   },
   "dependencies": {
     "disqus-react": "^1.0.7",

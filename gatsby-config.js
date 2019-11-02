@@ -2,11 +2,12 @@ module.exports = {
   siteMetadata: {
     title: `A Tech Blog`,
     author: `Vipul Chodankar`,
-    description: `A blog to share my journey with technology i guess.`,
+    description: `A blog to share my journey with technology i guess. Blog by Vipul Chodankar.`,
     siteUrl: `https://vipulchodankar-blog.netlify.com/`,
     social: {
       twitter: `vipul_chodankar`,
-      linkedin: `vipulchodankar`
+      linkedin: `vipulchodankar`,
+      github: `vipulchodankar`
     },
   },
   plugins: [
