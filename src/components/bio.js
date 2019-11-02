@@ -54,10 +54,11 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <strong>{author}</strong> who is an aspiring full stack developer living in Goa.
+        Written by <strong>{author}</strong> who is an aspiring full stack
+        developer living in Goa.
         {` `}
         <a href={`https://twitter.com/${social.twitter}`}>
-         You should follow him on Twitter
+          You should follow him on Twitter
         </a>
       </p>
     </div>
